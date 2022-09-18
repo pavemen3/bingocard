@@ -2,8 +2,10 @@ import random
 
 # 1から75までの値リストを用意
 nums = list(range(1, 75+1))
+print("{}".format(nums))
 # シャッフル
 random.shuffle(nums)
+print("{}".format(nums))
 nums[12] = "*" # ワイルドカードを指定
 # カードを表示
 for y in range(0, 5):
